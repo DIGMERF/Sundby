@@ -1,4 +1,5 @@
 ## Сайт Sundby
 
 - Это официальный сайт Sundby Network.
-- Разработчики: Rodber Games.
+- Разработчик: Rodber Games.
+- Издание: 1.3
