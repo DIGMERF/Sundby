@@ -1,0 +1,93 @@
+/*
+Style.css by rl-media
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~#####~~~##~~~~~~~~~~~~~~##~~~##~######~~#####~~~######~~~####~~
+~##~~##~~##~~~~~~~~~~~~~~###~###~##~~~~~~##~~##~~~~##~~~~##~~##~
+~#####~~~##~~~~~~#####~~~##~#~##~####~~~~##~~##~~~~##~~~~######~
+~##~~##~~##~~~~~~~~~~~~~~##~~~##~##~~~~~~##~~##~~~~##~~~~##~~##~
+~##~~##~~######~~~~~~~~~~##~~~##~#####~~~#####~~~######~~##~~##~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rl-media.ru
+
+*/
+* { margin: 0px; padding: 0px; }
+html, body {width: 100%;height: 100%;padding: 0px;margin: 0px;color: #eee;font: 12px/18px Tahoma, Arial, Helvetica, sans-serif;background:#000 url(../images/bg.jpg) 50% 0 no-repeat; 
+}
+a {color:#fff;text-decoration: none;
+}
+a:hover {text-decoration: underline;
+}
+p {margin: 0;
+}
+images {border: none;
+}
+button{border:0;color:#fff}
+input {outline: none;vertical-align: middle;
+}
+.c{clear:both;}
+.line{background:#645e55;width:100%; height:1px}
+#wrapper {width: 901px; margin: 0 auto; }
+header{}
+header .logo{padding-top: 60px;}
+header #menu{background:url(../images/menu-bg.png) repeat-x; width:881px; margin: 0 auto; height:53px; border-radius:10px;margin-top: 40px;padding: 0 10px;list-style-type: none;}
+header #menu li{padding: 15px 15px;float:left;text-transform:uppercase;font-family:Arial;font-size: 15px;font-weight: bold;}
+header #menu li > img{float:left}
+header #menu li .text{float:left;padding: 3px 0 0 5px;}
+header #menu li:hover{background:#fff; color:#64972c;}
+#content{}
+#content #news{width:627; float:left}
+#content #right{width:274px; float:right;}
+#content #news article{width:587px; background: linear-gradient(to top, #d7d7d8, #efefef); border-radius:10px;color:#454545;padding:10px;margin: 10px 0;}
+#content #news article > img {float:left;padding:0 10px 0 0}
+#content #news article > h2{text-transform:uppercase;padding:0 0 10px 0}
+#content #news article .all{float:right;padding: 20px 0 0 0;height: 27px;}
+#content #right #login{background:url(../images/login-bg.png) no-repeat; width:240px;height:235px;padding: 17px;text-align: center;color:#261203;}
+#content #right #server{background:url(../images/server-bg.png) no-repeat;width:240px;height:235px;margin-top: 20px;padding: 17px;}
+#content #right #login .login{background:url(../images/login.png) no-repeat;width:208px;height:32px;border:none;padding-left:33px;color:#362e2b;margin-top: 43px;}
+#content #right #login .pass{background:url(../images/pass.png) no-repeat;width:208px;height:32px;border:none;padding-left:33px;color:#362e2b;margin-top: 10px;}
+#content #right #login .btn{background:url(../images/btn.png) no-repeat;width:115px;height:27px;}
+#content #right #login table{color:#261203;width:100%; padding:17px 0;}
+#content #right #login table a{color:#261203;}
+#content #right #server table{width:100%;margin-top: 50px;}
+#content #right #server table tr > td:nth-child(1){color:#706e6e}
+footer{background:url(../images/footer-bg.png) repeat-x; width:881px; margin: 0 auto; height:63px; border-radius:10px 10px 0 0;margin-top: 40px;padding: 0 10px;}
+footer table{width:100%;text-transform:uppercase;font-family:Arial;font-size: 12px;font-weight: bold;padding-top: 25px;}
+/*slider*/
+
+#slides {
+	width:897px;
+	margin:20px auto;
+}
+
+#slides .next,#slides .prev {
+	position:absolute;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+	margin: -40px 0 0 790px;
+}
+
+.slides_container {
+	width:897px;
+	height:396px;
+	border-radius: 5px 5px 10px 10px;
+}
+
+#slides .next {
+	margin-left:830px
+}
+
+.caption {
+	position:absolute;
+	height:42px;
+	padding:15px 20px 0 20px;
+	background:rgba(199, 212, 202, 1);
+	width:100%;
+	font-size:1.3em;
+	line-height:1.33;
+	color:#4f4f4f;
+	text-shadow:none;
+	font-family:Arial;
+}
