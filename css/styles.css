@@ -1,0 +1,47 @@
+/**
+ * Redist For WaxGame
+ * Created By exStudio
+ * Author: Mike Morette
+ * V: FB
+ * CSS Stylesheet
+ */
+
+html {font-size:14px;font-family:arial;font-weight:300;} 
+body {margin:0px;padding:0px;background-color:#29748B;background-image: url('../images/style/bg.png');background-repeat: no-repeat;background-attachment: initial;background-position: top;height: 100%;}
+
+#head-body {width: 1300px;margin-right: auto;margin-left: auto;}
+
+/* Шапка */
+#header {}
+#header a {}
+#header a .logo {margin: 30px 0px 0px 180px;}
+/* Навигация */
+.nav {height: 55px;margin-left: 190px;position: relative;top: 20px;}
+.nav .lnav {background-image: url('../images/style/lnav.png');height: 55px;background-repeat: no-repeat;float: left;width: 600px;}
+.nav .lnav ul {list-style: none;position: relative;top: 5px;}
+.nav .lnav ul li {display: inline-block;}
+.nav .lnav ul li a {text-decoration: none;color: #fff;margin-right: 15px;}
+.nav .rnav {background-image: url('../images/style/rnav.png');background-repeat: no-repeat;height: 28px;float: right;width: 470px;top: 12px;position: relative;}
+.nav .rnav ul {list-style: none;position: relative;top: -8px;margin-left: 30px;}
+.nav .rnav ul li {display: inline-block;}
+.nav .rnav ul li a {text-decoration: none;color: #fff;margin-right: 15px;}
+/* Слайдер */
+#slider {}
+/* Блок Мониторинга */
+#monitoring {width: 224;height: 255;position: absolute;top: 322px;right: 260px;}
+#monitoring .blb {background-image: url('../images/style/bl-mon.png');height:255px;}
+#monitoring .blt {padding: 15px 50px;color: #fff;}
+#monitoring .blc {padding-left: 30px;padding-top: 10px;color: #fff;}
+#monitoring .bout {}
+
+#wrapper {width: 810px;position: absolute;top: 600;right: 270px;}
+.wrap-left {width: 560px;}
+.content {background-image: url('../images/style/contn.png');height: 658px;}
+.contt {padding: 10px;padding-left: 30px;padding-bottom: 5px;padding-left: 0px;color: #fff;margin-left: 30px;font-size: 18px;border-bottom: 2px solid #fff;width: 60px;}
+.shortnew {background-image: url('../images/style/shortnew.png');background-repeat: no-repeat;width: 515px;height: 187;/* position: absolute; */top: 30;left: 20;margin-top: 10px;margin-left: 20px;}
+
+.wrap-right {}
+
+
+
+#footer {}
