@@ -1,1 +1,0 @@
-<div style="height:6px"></div><div align="center" class="navbutcont">[prev-link]&larr; Назад[/prev-link]{pages}[next-link]Вперед &rarr; [/next-link] </div><div style="height:8px"></div>
