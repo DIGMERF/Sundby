@@ -1,0 +1,68 @@
+html,body{
+height: 100%;
+ margin: 0px;
+ padding: 0px; 
+background-image: url(../images/fonred.gif);
+   background-position: center; 
+  background-repeat: repeat;
+ font:normal 11px tahoma;
+}
+.header{
+
+background:url(../images/headernight.png);
+ background-position: center;
+  background-repeat: repeat-x;
+   height:300px;
+
+width:100%;
+}
+.logo{
+   position: absolute; 
+background:url(../images/logotip.png) no-repeat;
+height:170px;
+width:410px;
+float:left;
+margin-left:15px;
+ margin-top:2px;  
+}
+.soccont{
+
+height:66px;
+width:179px;
+float:right;
+ margin-top:55px; 
+color:#fff;
+margin-right:15px;
+}
+
+
+ 
+.footer{
+
+    background:url(../images/podvalnight.png);
+ background-position: center;
+  background-repeat: repeat-x;
+   height:64px;
+
+ 
+
+width:100%; 
+margin:auto;
+
+color:#fff;
+} 
+.socki{
+padding-top:8px;
+padding-left:12px;
+}
+
+.regbutton{
+    
+background:url(../images/regbt.png) no-repeat;
+  width:129px;
+height:130px;
+float:right;
+margin-right:30px;
+   margin-top:44px; 
+
+}
